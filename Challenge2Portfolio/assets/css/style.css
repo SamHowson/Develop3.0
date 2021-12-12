@@ -1,0 +1,25 @@
+header{
+    background-color: teal;
+    margin: auto;
+    text-align: left;
+    flex-wrap: wrap;
+
+}
+
+.first {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    background-color: tomato;
+
+}
+.first img {
+    float:none;
+    margin: auto;
+    size: 150px;
+}
+.second{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
