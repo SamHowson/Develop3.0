@@ -1,25 +1,57 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    
+
+}
 header{
     background-color: teal;
-    margin: auto;
+    margin: 0;
     text-align: left;
     flex-wrap: wrap;
+    padding: 20px 35px;
 
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+header nav {
+float:right;
+margin: 15px 0;
+}
+header nav ul li {
+    display:inline
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
 }
 
 .first {
     text-align: center;
     padding: 20px;
-    margin: auto;
+    margin: 0;
     background-color: tomato;
 
 }
 .first img {
     float:none;
-    margin: auto;
+    margin: 0;
     size: 150px;
+    flex-wrap: wrap;
+    display: block;
+    
 }
 .second{
     text-align: center;
     padding: 20px;
-    margin: auto;
+    margin: 0;
+    background-color: tomato;
 }
