@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color:white;
     margin: auto;
 }
 header{
-    background-color: navy;
-    font-style: oblique;
-    color: white;
-    text-align: left;
+    background-color:white;
+    font-style: bold;
+    font-size: x-large;
+    text-align: center;
 }
 h2{
     font-style: italic;
@@ -19,4 +19,13 @@ h2{
 }
 h3{
     font-size: large;
+}
+.text{
+    text-align: center;
+    font-size: large;
+
+}
+.main{
+    text-align: center;
+    color:teal
 }
