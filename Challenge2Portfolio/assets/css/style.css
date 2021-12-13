@@ -17,6 +17,9 @@ header{
     padding: 20px 35px;
 
 }
+a:hover{
+    color:white;
+}
 header a{
     color: black;
     text-decoration: none;
@@ -24,6 +27,7 @@ header a{
 header nav {
 float:right;
 margin: 15px 0;
+;
 }
 header nav ul li {
     display:inline
@@ -39,19 +43,46 @@ header nav ul li a {
     padding: 20px;
     margin: 0;
     background-color: tomato;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.first img {
-    float:none;
-    margin: 0;
-    size: 150px;
-    flex-wrap: wrap;
-    display: block;
+img {
+    border: 1px solid #ddd;
+    border-radius: 1500px;
+    padding: 10px;
+    width: 1000px;
     
+    
+}
+.first img:hover {
+    color: white;
 }
 .second{
     text-align: center;
     padding: 20px;
     margin: 0;
+    background-color: teal;
+}
+.third {
+margin: 0 auto;
+text-align: center;
+background-color: tomato;
+
+}
+.fourth{
+margin: 0 auto;
+background-color: teal;
+border: 1px auto;
+color:white;
+text-align: center;
+
+
+}
+footer{
     background-color: tomato;
+    font-weight: lighter;
+    color:black;
+    text-align: center;
+
 }
