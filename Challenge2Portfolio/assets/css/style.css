@@ -6,28 +6,35 @@
 }
 body {
     margin: auto;
+    background-image: url("file:///Users/davidhowson/Desktop/DEVELOP/braves.png");
     
 
 }
 header{
-    background-color: teal;
+    background-color:navy;
     margin: 0;
     text-align: left;
     flex-wrap: wrap;
     padding: 20px 35px;
+    font-style: italic;
+    font-size: xx-large;
+    color:white;
+
 
 }
 a:hover{
-    color:white;
+    color:greenyellow;
 }
 header a{
     color: black;
     text-decoration: none;
+    font-size: xx-large;
+    
 }
 header nav {
 float:right;
 margin: 15px 0;
-;
+font-size: xx-large;
 }
 header nav ul li {
     display:inline
@@ -42,47 +49,57 @@ header nav ul li a {
     text-align: center;
     padding: 20px;
     margin: 0;
-    background-color: tomato;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display:inline-block;
 
+}
+.first p{
+    background-color: white;
+}
+.first h3 {
+    background-color: white;
 }
 img {
     border: 1px solid #ddd;
-    border-radius: 1500px;
+    border-radius: 1000px;
     padding: 10px;
-    width: 1000px;
-    
-    
-}
-.first img:hover {
-    color: white;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .second{
     text-align: center;
-    padding: 20px;
-    margin: 0;
-    background-color: teal;
+    margin: 0 auto;
+    font-size: large;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.second a:hover{
+    text-align: center;
 }
 .third {
 margin: 0 auto;
 text-align: center;
-background-color: tomato;
+font-size: large;
+background-color: white;
 
 }
 .fourth{
 margin: 0 auto;
-background-color: teal;
-border: 1px auto;
-color:white;
+color:navy;
 text-align: center;
+font-size: x-large;
+background-color: white;
 
 
 }
+
 footer{
-    background-color: tomato;
-    font-weight: lighter;
-    color:black;
+    background-color:navy;
+    font-size: x-large;
+    color:white;
     text-align: center;
+    font-style: italic;
 
 }
