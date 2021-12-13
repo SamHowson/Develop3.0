@@ -65,9 +65,12 @@ img {
     border-radius: 1000px;
     padding: 10px;
     width: 50%;
-    display:block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
+}
+img:hover{
+    background-color:greenyellow;
 }
 .second{
     text-align: center;
@@ -75,6 +78,8 @@ img {
     font-size: large;
     flex-wrap: wrap;
     display: inline-block;
+    
+    
 }
 .second a:hover{
     text-align: center;
@@ -92,10 +97,7 @@ color:navy;
 text-align: center;
 font-size: x-large;
 background-color: white;
-
-
 }
-
 footer{
     background-color:navy;
     font-size: x-large;
