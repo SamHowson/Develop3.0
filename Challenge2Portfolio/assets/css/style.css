@@ -69,8 +69,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-img:hover{
-    background-color:greenyellow;
+.second img:hover{
+    opacity: 80%;
 }
 .second{
     text-align: center;
