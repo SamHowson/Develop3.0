@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    margin: auto;
+}
+header{
+    background-color: navy;
+    font-style: oblique;
+    color: white;
+    text-align: left;
+}
+h2{
+    font-style: italic;
+    font-size: xx-large;
+}
+h3{
+    font-size: large;
+}
