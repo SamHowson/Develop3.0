@@ -72,18 +72,23 @@ img {
 .second img:hover{
     opacity: 80%;
 }
+
 .second{
     text-align: center;
     margin: 0 auto;
     font-size: large;
     flex-wrap: wrap;
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     
     
 }
 .second a:hover{
     text-align: center;
+   
 }
+
 .third {
 margin: 0 auto;
 text-align: center;
